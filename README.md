@@ -1,6 +1,6 @@
 # repositorioPrueba
 
-mi primer repositorio 
+mi pr  imer repositorio 
 este es un repositorio de prueba
 
 
