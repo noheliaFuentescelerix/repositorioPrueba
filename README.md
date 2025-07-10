@@ -14,3 +14,6 @@ Cambios desde mi rama local llamda developer01
 
 
 hola mundo , este es otro intento para poder sincronizar visual studio code con mi  cuenta de git hub
+
+
+Cambios ralizados desde el editor ed github qeu accedi usando la tecla . 
