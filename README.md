@@ -19,3 +19,6 @@ hola mundo , este es otro intento para poder sincronizar visual studio code con 
 Cambios ralizados desde el editor ed github qeu accedi usando la tecla . 
 
 hola mundo 
+
+realize cambios en el dependabot.yml
+agrague nuget (.net)
