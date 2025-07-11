@@ -4,59 +4,50 @@
 
 ## ✅ 1) Git y GitHub — Manejo de versiones y flujo colaborativo
 
-- Aprendiste a clonar repositorios (`git clone` y `gh repo clone`).
-- Usaste HTTPS y SSH y entendiste por qué SSH es más seguro y práctico.
-- Configuraste llaves SSH (`id_ed25519`), `ssh-agent` y `ssh-add` para no ingresar la passphrase cada vez.
-- Probaste tu conexión con `ssh -T git@github.com` y verificaste tu usuario.
-- Cambiaste URLs remotas de HTTPS a SSH con `git remote set-url origin`.
-- Eliminaste credenciales viejas del Administrador de Credenciales de Windows.
+- Aprendiste a clonar repositorios desde GitHub a tu PC usando `git clone` y `gh repo clone`.
+- Entendiste la diferencia entre usar **HTTPS** y **SSH**, y por qué SSH es más seguro y práctico.
+- Configuraste llaves SSH (`id_ed25519`), usando `ssh-agent` y `ssh-add` para evitar escribir la passphrase cada vez.
+- Probaste tu conexión con `ssh -T git@github.com` y verificaste tu usuario correcto.
+- Cambiaste URLs remotas de HTTPS a SSH con `git remote set-url origin ...` para resolver errores de permisos.
+- Eliminaste credenciales viejas desde el **Administrador de Credenciales de Windows**.
 - Usaste `git branch` y `git checkout` para trabajar en ramas correctas.
-- Ejecutaste `git pull origin main` para traer cambios del remoto.
-- Solucionaste ramas sin upstream y conflictos de merge.
-- Usaste GitHub CLI (`gh`) para autenticarte, subir tu llave SSH y crear repos (`gh repo create`).
-- Navegaste carpetas con nombre que empieza con guion usando `cd ./-carpeta` o `cd -- -carpeta`.
+- Ejecutaste `git pull origin main` para traer cambios del remoto a local.
+- Resolvieron errores comunes como ramas sin upstream y conflictos de merge.
+- Usaste **GitHub CLI (`gh`)** para autenticarte, subir tu llave SSH y crear repos desde la terminal (`gh repo create`).
+- Aprendiste a manejar carpetas con nombre que empieza con guion usando `cd ./-carpeta` o `cd -- -carpeta`.
 
 ---
 
-## ✅ 2) Creación repositorio de presentación — HTML + CSS
+## ✅ 2) Creación de repositorio de presentación — Pequeña página usando HTML + CSS
 
-- Creaste un repositorio con tu nombre de usuario como portada de perfil de GitHub.
-- Estructuraste un `index.html` con `<head>` completo, meta etiquetas, Bootstrap y favicon.
-- Organizaste `<body>` con contenedores, botones y enlaces a LinkedIn, máster y hackathon.
-- Diferenciaste `<img src=\"...\">` y `background-image` en CSS.
-- Corregiste rutas absolutas a relativas (`assets/perfil.jpg`).
-- Usaste `border-radius` y `box-shadow` para la imagen de perfil.
-- Aplicaste animaciones CSS (`@keyframes Gradient`) y efectos `.shake`.
-
----
-
-## ✅ 3) Uso de Dependabot para monitoreo de repositorios
-
-- Verificaste tu SDK con `dotnet --list-sdks` y diferenciaste SDK y runtime.
-- Usaste `dotnet add package` para agregar `Newtonsoft.Json` corrigiendo errores.
-- Analizaste advertencias de seguridad (`NU1903`) y buscaste versiones seguras.
-- Restauraste paquetes y entendiste la actualización del `.csproj`.
-- Corregiste el archivo `dependabot.yml` (`package-ecosystem`).
-- Configuraste Dependabot para monitorear repositorios, entregar alertas de seguridad y proponer pull requests automáticos cuando detecta actualizaciones necesarias.
+- Creaste un repositorio con tu nombre de usuario que se convierte en la portada del perfil de GitHub.
+- Estructuraste un archivo `index.html` con `<head>` bien formado, meta etiquetas, Bootstrap y favicon.
+- Organizaste el `<body>` con contenedores, botones y enlaces a LinkedIn, tu máster y la hackathon.
+- Aprendiste la diferencia entre `<img src=\"...\">` y `background-image` en CSS.
+- Corregiste rutas absolutas a rutas relativas (`assets/perfil.jpg`).
+- Usaste `border-radius` y `box-shadow` para dar estilo redondeado a la imagen de perfil.
+- Aplicaste animaciones CSS (`@keyframes Gradient`) y efectos `.shake` para estilo dinámico.
 
 ---
 
-## ✅ 4) Documentación clara y profesional
+## ✅ 3) Uso de Dependabot para monitoreo de los archivos del repositorio
 
-- Redactaste un `README.md` en inglés estructurado: About us, How to get involved, Useful resources, Fun fact y Connect.
-- Explicaste cómo nació tu proyecto (hackathon, Celerix y Platzi).
-- Usaste Markdown con buenas prácticas.
-- Configuraste el perfil para mostrar actividad reciente.
-- Creaste una organización (fines educativos) con documento de presentación.
-- Introducción a `.gitignore`: cómo definir archivos o carpetas que no deben subirse al repositorio.
+- Verificaste tu SDK con `dotnet --list-sdks` y comprendiste la diferencia entre SDK y runtime.
+- Usaste `dotnet add package` para agregar `Newtonsoft.Json` después de corregir un error de nombre.
+- Interpretaste advertencias de seguridad (`NU1903`) y buscaste versiones seguras.
+- Restauraste paquetes y entendiste la actualización de tu `.csproj`.
+- Corregiste errores de configuración en `dependabot.yml` (campo `package-ecosystem`).
+- Configuraste Dependabot: esta herramienta permite monitorear tu repositorio y los archivos que se suben, entregar alertas de seguridad, además de notificar y crear un pull request automáticamente con las correcciones necesarias si detecta que no se trabaja con la versión más actualizada.
 
 ---
 
-## 🎯 Resumen General
+## ✅ 5) Documentación clara y profesional
 
-- Consolidaste habilidades reales de control de versiones, sincronización remota y flujo colaborativo.
-- Personalizaste páginas web HTML y CSS.
-- Usaste Dependabot y NuGet para automatización de dependencias.
-- Documentaste tu proceso con organización y enfoque profesional.
+- Redactaste un `README.md` en inglés bien estructurado: **About us**, **How to get involved**, **Useful resources**, **Fun fact** y **Connect**.
+- Explicaste cómo nació tu proyecto (hackathon + Celerix + Platzi).
+- Usaste buenas prácticas de Markdown para mantener la presentación clara y amigable.
+- Configuraste para que en este perfil se muestre de manera automática tu actividad más reciente en GitHub.
+- Creaste una organización (con fines educativos) a la cual también se le realizó su respectivo documento de presentación.
+- Introducción a los documentos `.gitignore`: aprendiste que se pueden utilizar para definir qué archivos (basado en su extensión) o qué carpetas (basadas en su ubicación) no deben subirse al repositorio cuando no son necesarias para su funcionamiento.
 
-**¡Sigue aprendiendo y creciendo!** 🚀✨
+---
